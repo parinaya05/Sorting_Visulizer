@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Algorithm Playground</title>
+    <link rel="stylesheet" href="sorting.css">
+</head>
+<body>
+
+<div class="app">
+
+    <!-- LEFT CONTROL PANEL -->
+    <aside class="controls">
+        <h2>Array Setup</h2>
+
+        <input id="input" placeholder="10,4,7,1,9">
+        <button onclick="displayArray()">Create Array</button>
+        <button onclick="generateRandom()">Generate Random</button>
+        <button onclick="resetArray()">Clear</button>
+
+        <hr>
+
+        <h2>Sorting Methods</h2>
+        <button onclick="bubbleSort()">Bubble Sort</button>
+        <button onclick="selectionSort()">Selection Sort</button>
+        <button onclick="insertionSort()">Insertion Sort</button>
+
+        <hr>
+
+        <div class="stats">
+            <p>Comparisons: <span id="cmp">0</span></p>
+            <p>Swaps: <span id="swp">0</span></p>
+        </div>
+    </aside>
+
+    <!-- RIGHT VISUAL AREA -->
+    <main class="visual">
+        <h2>Visualization Area</h2>
+        <div id="bars" class="bars"></div>
+    </main>
+
+</div>
+
+<script src="sorting.js"></script>
+</body>
+</html>
