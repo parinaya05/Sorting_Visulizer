@@ -39,6 +39,3 @@ This helps in understanding:
 - CSS – Styling and layout
 - JavaScript – Logic and animations
 
----
-
-## 📂 Project Structure
